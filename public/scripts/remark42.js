@@ -1,9 +1,9 @@
 var remark_config = {
   host: 'https://facecamp671.ru/remark42',
+  url: 'https://facecamp671.ru',
   site_id: 'remark',
   theme: 'dark',
-  no_footer: true,
-  simple_view: true,
+  no_footer: true
 };
 
 (function () {
