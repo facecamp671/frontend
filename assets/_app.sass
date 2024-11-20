@@ -1,12 +1,50 @@
-$headerHeight: 60px
-$secondaryColor: rgb(107, 114, 128)
+*, :after, :before
+  box-sizing: border-box
+  border: 0 solid #e5e7eb
+
+h1
+  color: #f3f4f6
+  font-size: 1.6em
+  margin: 0 0 .4em
+  line-height: 1.2
+  font-weight: 800
+  letter-spacing: -.015em
 
 a
-  color: inherit
-  text-decoration: inherit
+  text-decoration-color: #5e6365
+  color: #bf94ff
+  transition: opacity .2s ease
+  text-decoration: none
 
-*
-  font-family: "Segoe UI", Arial, sans-serif
+  &:hover
+    opacity: .7
+    text-decoration-line: underline
+
+p
+  margin-top: 1.25em
+  margin-bottom: 1.25em
+
+blockquote
+  border-left-width: 3px
+  border-left-style: solid
+  border-left-color: #a970ff
+  padding: 0.5rem 0 0.5rem 1rem
+  margin: 0
+
+hr
+  border-color: #292c2d
+  border-top-width: 1px
+  margin-top: 3em
+  margin-bottom: 3em
+
+img
+  margin-top: 1em
+  margin-bottom: 1em
+
+.flex-center
+  display: flex
+  justify-content: center
+  align-items: center
 
 .noselect
   -webkit-touch-callout: none
