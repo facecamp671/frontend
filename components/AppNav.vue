@@ -12,30 +12,31 @@
 </template>
 <script lang="ts" setup>
 const route = useRoute()
+const {t} = useI18n()
 
 interface Link {
   label: string;
   href: string;
 }
 
-const links: Link[] = [
+const links = computed<Link[]>(() => [
   {
-    label: "FAQ",
+    label: t("faq"),
     href: "/faq"
   },
   {
-    label: "Rulebook",
+    label: t("rulebook"),
     href: "/rulebook"
   },
   {
-    label: "Comments",
+    label: t("comments"),
     href: "/salt"
   },
   {
-    label: "About",
+    label: t("about"),
     href: "/"
   }
-]
+])
 </script>
 <style lang="sass" scoped>
 .nav-line

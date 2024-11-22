@@ -1,20 +1,23 @@
 <template>
   <div class="flex-center">
-    <img alt="about_me" src="~/assets/about_me.jpeg"/>
+    <img alt="faq" src="~/assets/faq.jpeg"/>
   </div>
-  <MDC :value="markdown"/>
+
+  <PerkTable :perks="allPerks"/>
+
+  <CommentsSection/>
 </template>
 
 <script lang="ts" setup>
-const {t} = useI18n()
+import {parse} from 'yaml'
+import PerksYAML from '~/assets/perks.yaml?raw'
 
-const markdown = computed(() => t('about_text'))
+const allPerks = parse(PerksYAML ?? '[]') as Perk[]
 
-const pageTitle = t('about')
-const seoTitle = `FaceCamp671 - ${pageTitle}`
+const seoTitle = 'FaceCamp671 - All perks'
 
 definePageMeta({
-  title: 'about',
+  title: 'All perks'
 })
 
 useSeoMeta({
@@ -23,7 +26,7 @@ useSeoMeta({
   ogTitle: seoTitle,
   ogDescription: seoTitle,
   ogImage: '/apple-touch-icon.png',
-  ogUrl: 'https://facecamp671.ru',
+  ogUrl: 'https://facecamp671.ru/perks/killer',
   twitterTitle: seoTitle,
   twitterDescription: seoTitle,
   twitterImage: '/apple-touch-icon.png',

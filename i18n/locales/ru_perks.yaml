@@ -1,0 +1,128 @@
+perks:
+  nurses_calling: Зов Медсестры
+  agitation: Нетерпимость
+  alien_instinct: Инстинкт чужого
+  all_shaking_thunder: All-Shaking Thunder
+  awakened_awareness: Развитая внимательность
+  bamboozle: Розыгрыш
+  barbecue_and_chilli: Барбекю и чили
+  batteries_included: Батарейки в комплекте
+  beast_of_pray: Хищный зверь
+  bitter_murmur: Тихий шорох
+  blood_echo: Отзвук крови
+  blood_warden: Кровавый смотритель
+  bloodhound: Ищейка
+  brutal_strength: Зверская сила
+  call_of_brine: Соленое море
+  corrupt_intervention: Вмешательство скверны
+  coulrophobia: Клоунофобия
+  coup_de_grace: Добивание
+  cruel_limits: Жестокая изоляция
+  dark_arrogance: Темное высокомерие
+  dark_devotion: Темная преданность
+  darkness_revealed: Явление мрака
+  dead_mans_switch: Аварийная кнопка
+  deadlock: Мертвая хватка
+  deathbound: Смертельные узы
+  deerstalker: Охотник на оленей
+  discordance: Разлад
+  dissolution: Растворение
+  distressing: Сеющий страх
+  dominance: Владычество
+  dragons_grip: Драконья хватка
+  dying_light: Угасающий свет
+  enduring: Стойкий
+  eruption: Подрыв
+  fire_up: Яркое пламя
+  forced_hesitation: Вынужденная нерешительность
+  forced_penance: Принудительная мера
+  franklins_demise: Гибель Франклина
+  friends_til_the_end: Друзья до гроба
+  furtive_chase: Скрытная погоня
+  game_afoot: Догонялки
+  gearhead: Знаток техники
+  genetic_limits: Генетические ограничения
+  grim_embrace: Мрачные объятья
+  hex_blood_favour: 'Порча: благоволение крови'
+  hex_crowd_control: 'Порча: контроль толпы'
+  hex_devour_hope: 'Порча: пожирание надежды'
+  hex_face_the_darkness: 'Порча: лик мрака'
+  hex_haunted_ground: 'Порча: проклятая земля'
+  hex_huntress_lullaby: 'Порча: колыбельная охотницы'
+  hex_noed: 'Порча: никому не скрыться от смерти'
+  hex_pentimento: 'Порча: пентименто'
+  hex_plaything: 'Порча: игрушка'
+  hex_retribution: 'Порча: кара'
+  hex_ruin: 'Порча: погибель'
+  hex_the_third_seal: 'Порча: третья печать'
+  hex_thrill_of_the_hunt: 'Порча: охотничий азарт'
+  hex_two_can_play: 'Порча: игра для двоих'
+  hex_undying: 'Порча: не-смерть'
+  hex_wretched_fate: 'Порча: горькая участь'
+  hoarder: Скопидом
+  hubris: Свирепая гордыня
+  human_greed: Алчность
+  hysteria: Истерия
+  im_all_ears: Чуткий слух
+  infectious_fright: Заразительный ужас
+  insidious: Коварство
+  iron_grasp: Мертвая хватка
+  iron_maiden: Железная дева
+  knock_out: Нокаут
+  languid_touch: Безжизненное касание
+  lethal_persuer: Преследователь-убийца
+  leverage: Рычаг влияния
+  lightborn: Детище света
+  machine_learning: Машинное обучение
+  mad_grit: Безумное упорство
+  make_your_choice: Выбор за тобой
+  merciless_storm: Безжалостный шторм
+  mindbreaker: Разрушитель разума
+  monitor_and_abuse: Слежка и наказание
+  nemesis: Возмездие
+  no_quarter: No Quarter
+  no_way_out: Выхода нет
+  nowhere_to_hide: Им не укрыться
+  oppression: Притеснение
+  overcharge: Перегрузка
+  overwhelming_presence: Невыносимое присутствие
+  play_with_your_food: Поиграть со своей жертвой
+  pop_goes_the_weasel: Чертик из табакерки
+  predator: Хищник
+  rancor: Ненависть
+  rapid_brutality: Быстрая жестокость
+  remember_me: Помни меня
+  sbfl: Оставьте лучшее напоследок
+  floods_of_rage: 'Секущий крюк: пучина ярости'
+  gift_of_pain: 'Секущий крюк: дар боли'
+  hangmans_trick: 'Секущий крюк: секрет палача'
+  jagged_compass: 'Scourge Hook: Jagged Compass'
+  monstrous_shrine: 'Секущий крюк: чудовищный храм'
+  pain_resonance: 'Секущий крюк: резонанс боли'
+  septic_touch: Тлетворное касание
+  shadowborn: Детище тьмы
+  shattered_hope: Разбитые надежды
+  sloppy_butcher: Небрежный мясник
+  spies_from_the_shadows: Сумеречные шпионы
+  spirit_fury: Ярость духа
+  starstruck: Фанатение
+  stridor: Стридор
+  superior_anatomy: Лучшая анатомия
+  surge: Выброс
+  surveillance: Наблюдение
+  thwack: Бац!
+  terminus: Последний этап
+  territorial_imperative: Территориальный императив
+  thanatophobia: Танатофобия
+  thrilling_tremors: Пугающая тряска
+  tinkerer: Умелец
+  trail_of_torment: Тропа терзаний
+  ultimate_weapon: Совершенное оружие
+  unbound: Свободный
+  undone: Незавершенное
+  unforeseen: Непредвиденное
+  unnerving_presence: Пугающее присутствие
+  unrelenting: Безжалостный
+  weave_attunement: Связь с плетением
+  whispers: Шепоты
+  zanshin_tactics: Тактика зансин

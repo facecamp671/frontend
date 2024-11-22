@@ -9,9 +9,11 @@
 </template>
 
 <script lang="ts" setup>
-import PerksJSON from '~/assets/perks.json';
+import {parse} from 'yaml'
+import PerksYAML from '~/assets/perks.yaml?raw'
 
-const killerPerks = (PerksJSON as Perk[]).filter(perk => perk.type === 'killer');
+const allPerks = parse(PerksYAML ?? '[]') as Perk[]
+const killerPerks = allPerks.filter(perk => perk.type === 'killer')
 
 const seoTitle = 'FaceCamp671 - Killer perks'
 

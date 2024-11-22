@@ -2,17 +2,20 @@
   <div class="flex-center">
     <img alt="salt" src="~/assets/salt.jpeg"/>
   </div>
-  <p>
-    <small>You can write whatever you want here. There is no moderation</small>
-  </p>
+  <MDC :value="markdown"/>
   <CommentsSection url="https://facecamp671.ru/"/>
 </template>
 
 <script lang="ts" setup>
-const seoTitle = 'FaceCamp671 - Comments'
+const {t} = useI18n()
+
+const markdown = computed(() => t('comments_text'))
+
+const pageTitle = t('comments')
+const seoTitle = `FaceCamp671 - ${pageTitle}`
 
 definePageMeta({
-  title: 'Comments'
+  title: 'comments'
 })
 
 useSeoMeta({

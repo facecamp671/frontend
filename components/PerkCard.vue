@@ -17,7 +17,7 @@
       </div>
     </td>
     <td class="perk-name">
-      <a :href="`/perks/${props.perk.slug}`">{{ props.perk.name }}</a>
+      <a :href="`/perks/${props.perk.slug}`">{{ t(`perks.${props.perk.slug}`) }}</a>
     </td>
     <td class="perk-tags">
       <img v-for="tag in sortedTags"
@@ -33,6 +33,8 @@
 </template>
 <script lang="ts" setup>
 import type {Perk} from "~/utils/types";
+
+const {t} = useI18n()
 
 interface Props {
   rank: number;

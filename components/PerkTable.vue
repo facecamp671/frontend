@@ -48,8 +48,6 @@ const queryTags = computed<string[]>(() => query.value
     .map((s) => s.trim())
     .filter((s) => s))
 
-console.log(queryTags.value)
-
 const filteredPerks = computed(() => props.perks.filter((p) => queryTags.value.every((tag) => p.tags.includes(tag))))
 const hideTags = computed(() => (props.hideTags ?? []).concat(queryTags.value))
 

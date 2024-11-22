@@ -10,7 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
+    "@nuxtjs/mdc": "^0.9.5",
     "@pinia/nuxt": "^0.7.0",
     "@vueuse/core": "^11.2.0",
     "@vueuse/nuxt": "^11.2.0",
@@ -18,9 +19,11 @@
     "pinia": "^2.2.6",
     "vue": "latest",
     "vue-final-modal": "^4.5.5",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "yaml": "^2.6.1"
   },
   "devDependencies": {
+    "raw-loader": "^4.0.2",
     "sass": "^1.81.0",
     "typescript": "^5.6.3",
     "vue-tsc": "^2.1.10"
