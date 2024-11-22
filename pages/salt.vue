@@ -3,7 +3,7 @@
     <img alt="salt" src="~/assets/salt.jpeg"/>
   </div>
   <MDC :value="markdown"/>
-  <CommentsSection custom-url="https://facecamp671.ru/"/>
+  <CommentsSection/>
 </template>
 
 <script lang="ts" setup>

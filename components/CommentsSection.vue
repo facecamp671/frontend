@@ -2,13 +2,6 @@
   <p id="remark42" ref="remark42Ref"></p>
 </template>
 <script lang="ts" setup>
-
-interface Props {
-  customUrl?: string;
-}
-
-const props = defineProps<Props>()
-
 const remark42Ref = ref(null)
 let remark42Instance: any
 
@@ -20,15 +13,6 @@ function initRemark42() {
 
   if (remark42Instance) {
     remark42Instance.destroy()
-  }
-
-  // @ts-ignore
-  remark_config = {
-    host: 'https://facecamp671.ru/remark42',
-    site_id: 'remark',
-    theme: 'dark',
-    no_footer: true,
-    url: props.customUrl,
   }
 
   // @ts-ignore
