@@ -37,9 +37,10 @@ function initRemark42() {
   remark42Instance = window.REMARK42.createInstance({
     // @ts-ignore
     node: remark42Ref.value as HTMLElement,
-    url: props.customUrl,
     // @ts-ignore
     ...remark_config,
+    // @ts-ignore
+    url: props.customUrl ?? remark_config?.url,
   })
 }
 
