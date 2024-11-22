@@ -12,8 +12,6 @@ const props = defineProps<Props>()
 const remark42Ref = ref(null)
 let remark42Instance: any
 
-console.log(props)
-
 function initRemark42() {
   // @ts-ignore
   if (!window.REMARK42) {
@@ -24,23 +22,21 @@ function initRemark42() {
     remark42Instance.destroy()
   }
 
-  console.log({
-    // @ts-ignore
-    node: remark42Ref.value as HTMLElement,
-    // @ts-ignore
-    ...remark_config,
-    // @ts-ignore
-    url: props.customUrl ?? remark_config?.url,
-  })
+  // @ts-ignore
+  remark_config = {
+    host: 'https://facecamp671.ru/remark42',
+    site_id: 'remark',
+    theme: 'dark',
+    no_footer: true,
+    url: props.customUrl,
+  }
 
   // @ts-ignore
   remark42Instance = window.REMARK42.createInstance({
     // @ts-ignore
     node: remark42Ref.value as HTMLElement,
     // @ts-ignore
-    ...remark_config,
-    // @ts-ignore
-    url: props.customUrl ?? remark_config?.url,
+    ...remark_config
   })
 }
 
