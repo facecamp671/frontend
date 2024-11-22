@@ -1,0 +1,1403 @@
+[
+  {
+    "name": "A Nurse's Calling",
+    "slug": "nurses_calling",
+    "type": "killer",
+    "tags": [
+      "aura",
+      "antiheal"
+    ],
+    "character": "nurse"
+  },
+  {
+    "name": "Agitation",
+    "slug": "agitation",
+    "type": "killer",
+    "tags": [
+      "carrying",
+      "haste",
+      "terror_radius"
+    ],
+    "character": "trapper"
+  },
+  {
+    "name": "Alien Instinct",
+    "slug": "alien_instinct",
+    "type": "killer",
+    "tags": [
+      "aura",
+      "oblivious",
+      "hook"
+    ],
+    "character": "xenomorph"
+  },
+  {
+    "name": "All-Shaking Thunder",
+    "slug": "all_shaking_thunder",
+    "type": "killer",
+    "tags": [
+      "lunge"
+    ],
+    "character": "houndmaster"
+  },
+  {
+    "name": "Awakened Awareness",
+    "slug": "awakened_awareness",
+    "type": "killer",
+    "tags": [
+      "aura",
+      "carrying"
+    ],
+    "character": "mastermind"
+  },
+  {
+    "name": "Bamboozle",
+    "slug": "bamboozle",
+    "type": "killer",
+    "tags": [
+      "vault",
+      "vault_speed",
+      "vault_block"
+    ],
+    "character": "clown"
+  },
+  {
+    "name": "Barbecue & Chilli",
+    "slug": "barbecue_and_chilli",
+    "type": "killer",
+    "tags": [
+      "aura",
+      "hook"
+    ],
+    "character": "cannibal"
+  },
+  {
+    "name": "Batteries Included",
+    "slug": "batteries_included",
+    "type": "killer",
+    "tags": [
+      "haste",
+      "generator",
+      "endgame"
+    ],
+    "character": "good_guy"
+  },
+  {
+    "name": "Beast of Prey",
+    "slug": "beast_of_pray",
+    "type": "killer",
+    "tags": [
+      "bloodlust",
+      "undetectable",
+      "bloodpoints"
+    ],
+    "character": "huntress"
+  },
+  {
+    "name": "Bitter Murmur",
+    "slug": "bitter_murmur",
+    "type": "killer",
+    "tags": [
+      "aura",
+      "generator",
+      "endgame"
+    ]
+  },
+  {
+    "name": "Blood Echo",
+    "slug": "blood_echo",
+    "type": "killer",
+    "tags": [
+      "exhausted",
+      "haemorrhage",
+      "hook"
+    ],
+    "character": "oni"
+  },
+  {
+    "name": "Blood Warden",
+    "slug": "blood_warden",
+    "type": "killer",
+    "tags": [
+      "exit_gate",
+      "aura",
+      "hook",
+      "endgame"
+    ],
+    "character": "nightmare"
+  },
+  {
+    "name": "Bloodhound",
+    "slug": "bloodhound",
+    "type": "killer",
+    "tags": [
+      "pools_of_blood"
+    ],
+    "character": "wraith"
+  },
+  {
+    "name": "Brutal Strength",
+    "slug": "brutal_strength",
+    "type": "killer",
+    "tags": [
+      "damage_generator",
+      "pallet",
+      "generator"
+    ],
+    "character": "trapper"
+  },
+  {
+    "name": "Call of Brine",
+    "slug": "call_of_brine",
+    "type": "killer",
+    "tags": [
+      "damage_generator",
+      "generator",
+      "regression",
+      "aura",
+      "loud_noise_notification",
+      "skill_check"
+    ],
+    "character": "onryo"
+  },
+  {
+    "name": "Corrupt Intervention",
+    "slug": "corrupt_intervention",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "generator_block",
+      "early_game"
+    ],
+    "character": "plague"
+  },
+  {
+    "name": "Coulrophobia",
+    "slug": "coulrophobia",
+    "type": "killer",
+    "tags": [
+      "healing_speed",
+      "skill_check",
+      "terror_radius",
+      "antiheal"
+    ],
+    "character": "clown"
+  },
+  {
+    "name": "Coup de Grâce",
+    "slug": "coup_de_grace",
+    "type": "killer",
+    "tags": [
+      "lunge",
+      "generator",
+      "endgame"
+    ],
+    "character": "twins"
+  },
+  {
+    "name": "Cruel Limits",
+    "slug": "cruel_limits",
+    "type": "killer",
+    "tags": [
+      "vault",
+      "generator",
+      "vault_block",
+      "aura"
+    ],
+    "character": "demogorgon"
+  },
+  {
+    "name": "Dark Arrogance",
+    "slug": "dark_arrogance",
+    "type": "killer",
+    "tags": [
+      "blind",
+      "stun",
+      "pallet_stun",
+      "vault",
+      "vault_speed"
+    ],
+    "character": "lich"
+  },
+  {
+    "name": "Dark Devotion",
+    "slug": "dark_devotion",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "terror_radius",
+      "undetectable"
+    ],
+    "character": "lich"
+  },
+  {
+    "name": "Darkness Revealed",
+    "slug": "darkness_revealed",
+    "type": "killer",
+    "tags": [
+      "locker",
+      "aura"
+    ],
+    "character": "dredge"
+  },
+  {
+    "name": "Dead Man's Switch",
+    "slug": "dead_mans_switch",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "generator_block",
+      "hook"
+    ],
+    "character": "deathslinger"
+  },
+  {
+    "name": "Deadlock",
+    "slug": "deadlock",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "generator_block"
+    ],
+    "character": "cenobite"
+  },
+  {
+    "name": "Deathbound",
+    "slug": "deathbound",
+    "type": "killer",
+    "tags": [
+      "scream",
+      "oblivious",
+      "antiheal",
+      "slugging"
+    ],
+    "character": "executioner"
+  },
+  {
+    "name": "Deerstalker",
+    "slug": "deerstalker",
+    "type": "killer",
+    "tags": [
+      "aura",
+      "slugging"
+    ]
+  },
+  {
+    "name": "Discordance",
+    "slug": "discordance",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "loud_noise_notification",
+      "aura"
+    ],
+    "character": "legion"
+  },
+  {
+    "name": "Dissolution",
+    "slug": "dissolution",
+    "type": "killer",
+    "tags": [
+      "pallet",
+      "pallet_break",
+      "vault",
+      "terror_radius"
+    ],
+    "character": "legion"
+  },
+  {
+    "name": "Distressing",
+    "slug": "distressing",
+    "type": "killer",
+    "tags": [
+      "terror_radius",
+      "bloodpoints"
+    ]
+  },
+  {
+    "name": "Dominance",
+    "slug": "dominance",
+    "type": "killer",
+    "tags": [
+      "chest",
+      "totem",
+      "aura"
+    ],
+    "character": "dark_lord"
+  },
+  {
+    "name": "Dragon's Grip",
+    "slug": "dragons_grip",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "damage_generator",
+      "scream",
+      "exposed"
+    ],
+    "character": "blight"
+  },
+  {
+    "name": "Dying Light",
+    "slug": "dying_light",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "repair_speed",
+      "heal_speed",
+      "endgame"
+    ],
+    "character": "shape"
+  },
+  {
+    "name": "Enduring",
+    "slug": "enduring",
+    "type": "killer",
+    "tags": [
+      "pallet",
+      "pallet_stun"
+    ],
+    "character": "hillbilly"
+  },
+  {
+    "name": "Eruption",
+    "slug": "eruption",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "damage_generator",
+      "regression",
+      "aura"
+    ],
+    "character": "nemesis"
+  },
+  {
+    "name": "Fire Up",
+    "slug": "fire_up",
+    "type": "killer",
+    "tags": [
+      "pallet",
+      "generator",
+      "vault",
+      "vault_speed",
+      "stacks",
+      "endgame"
+    ],
+    "character": "nightmare"
+  },
+  {
+    "name": "Forced Hesitation",
+    "slug": "forced_hesitation",
+    "type": "killer",
+    "tags": [
+      "hindered",
+      "slugging"
+    ],
+    "character": "singularity"
+  },
+  {
+    "name": "Forced Penance",
+    "slug": "forced_penance",
+    "type": "killer",
+    "tags": [
+      "broken",
+      "protection_hit"
+    ],
+    "character": "executioner"
+  },
+  {
+    "name": "Franklin's Demise",
+    "slug": "franklins_demise",
+    "type": "killer",
+    "tags": [
+      "item"
+    ],
+    "character": "cannibal"
+  },
+  {
+    "name": "Friends 'til the End",
+    "slug": "friends_til_the_end",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "obsession_change",
+      "aura",
+      "exposed",
+      "fair_play"
+    ],
+    "character": "good_guy"
+  },
+  {
+    "name": "Furtive Chase",
+    "slug": "furtive_chase",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "obsession_change",
+      "undetectable",
+      "haste"
+    ],
+    "character": "ghost_face"
+  },
+  {
+    "name": "Game Afoot",
+    "slug": "game_afoot",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "haste",
+      "generator",
+      "pallet",
+      "damage_generator",
+      "endgame"
+    ],
+    "character": "skull_merchant"
+  },
+  {
+    "name": "Gearhead",
+    "slug": "gearhead",
+    "type": "killer",
+    "tags": [
+      "skill_check",
+      "aura"
+    ],
+    "character": "deathslinger"
+  },
+  {
+    "name": "Genetic Limits",
+    "slug": "genetic_limits",
+    "type": "killer",
+    "tags": [
+      "exhausted"
+    ],
+    "character": "singularity"
+  },
+  {
+    "name": "Grim Embrace",
+    "slug": "grim_embrace",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "generator",
+      "generator_block",
+      "aura",
+      "fair_play"
+    ],
+    "character": "artist"
+  },
+  {
+    "name": "Hex: Blood Favour",
+    "slug": "hex_blood_favour",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "pallet",
+      "early_game"
+    ],
+    "character": "blight"
+  },
+  {
+    "name": "Hex: Crowd Control",
+    "slug": "hex_crowd_control",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "vault",
+      "vault_block",
+      "early_game"
+    ],
+    "character": "trickster"
+  },
+  {
+    "name": "Hex: Devour Hope",
+    "slug": "hex_devour_hope",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "haste",
+      "exposed",
+      "kill",
+      "hook",
+      "stacks",
+      "fair_play"
+    ],
+    "character": "hag"
+  },
+  {
+    "name": "Hex: Face the Darkness",
+    "slug": "hex_face_the_darkness",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "scream",
+      "terror_radius",
+      "aura"
+    ],
+    "character": "knight"
+  },
+  {
+    "name": "Hex: Haunted Ground",
+    "slug": "hex_haunted_ground",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "exposed"
+    ],
+    "character": "spirit"
+  },
+  {
+    "name": "Hex: Huntress Lullaby",
+    "slug": "hex_huntress_lullaby",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "skill_check",
+      "regression"
+    ],
+    "character": "huntress"
+  },
+  {
+    "name": "Hex: No One Escapes Death",
+    "slug": "hex_noed",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "exposed",
+      "haste",
+      "endgame"
+    ]
+  },
+  {
+    "name": "Hex: Pentimento",
+    "slug": "hex_pentimento",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "repair_speed",
+      "heal_speed"
+    ],
+    "character": "artist"
+  },
+  {
+    "name": "Hex: Plaything",
+    "slug": "hex_plaything",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "oblivious"
+    ],
+    "character": "cenobite"
+  },
+  {
+    "name": "Hex: Retribution",
+    "slug": "hex_retribution",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "oblivious",
+      "aura"
+    ],
+    "character": "deathslinger"
+  },
+  {
+    "name": "Hex: Ruin",
+    "slug": "hex_ruin",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "regression"
+    ],
+    "character": "hag"
+  },
+  {
+    "name": "Hex: The Third Seal",
+    "slug": "hex_the_third_seal",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "blindness",
+      "slugging"
+    ],
+    "character": "hag"
+  },
+  {
+    "name": "Hex: Thrill of the Hunt",
+    "slug": "hex_thrill_of_the_hunt",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "bloodpoints"
+    ]
+  },
+  {
+    "name": "Hex: Two Can Play",
+    "slug": "hex_two_can_play",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "blind",
+      "pallet_stun"
+    ],
+    "character": "good_guy"
+  },
+  {
+    "name": "Hex: Undying",
+    "slug": "hex_undying",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "aura"
+    ],
+    "character": "blight"
+  },
+  {
+    "name": "Hex: Wretched Fate",
+    "slug": "hex_wretched_fate",
+    "type": "killer",
+    "tags": [
+      "hex",
+      "totem",
+      "obsession",
+      "repair_speed"
+    ],
+    "character": "dark_lord"
+  },
+  {
+    "name": "Hoarder",
+    "slug": "hoarder",
+    "type": "killer",
+    "tags": [
+      "loud_noise_notification",
+      "chest"
+    ],
+    "character": "twins"
+  },
+  {
+    "name": "Hubris",
+    "slug": "hubris",
+    "type": "killer",
+    "tags": [
+      "stun",
+      "pallet_stun",
+      "exposed"
+    ],
+    "character": "knight"
+  },
+  {
+    "name": "Human Greed",
+    "slug": "human_greed",
+    "type": "killer",
+    "tags": [
+      "chest",
+      "aura"
+    ],
+    "character": "dark_lord"
+  },
+  {
+    "name": "Hysteria",
+    "slug": "hysteria",
+    "type": "killer",
+    "tags": [
+      "oblivious"
+    ],
+    "character": "nemesis"
+  },
+  {
+    "name": "I'm All Ears",
+    "slug": "im_all_ears",
+    "type": "killer",
+    "tags": [
+      "vault",
+      "aura"
+    ],
+    "character": "ghost_face"
+  },
+  {
+    "name": "Infectious Fright",
+    "slug": "infectious_fright",
+    "type": "killer",
+    "tags": [
+      "terror_radius",
+      "scream",
+      "loud_noise_notification",
+      "slugging"
+    ],
+    "character": "plague"
+  },
+  {
+    "name": "Insidious",
+    "slug": "insidious",
+    "type": "killer",
+    "tags": [
+      "undetectable"
+    ]
+  },
+  {
+    "name": "Iron Grasp",
+    "slug": "iron_grasp",
+    "type": "killer",
+    "tags": [
+      "carrying",
+      "wiggle"
+    ]
+  },
+  {
+    "name": "Iron Maiden",
+    "slug": "iron_maiden",
+    "type": "killer",
+    "tags": [
+      "locker",
+      "exposed",
+      "scream",
+      "loud_noise_notification"
+    ],
+    "character": "legion"
+  },
+  {
+    "name": "Knock Out",
+    "slug": "knock_out",
+    "type": "killer",
+    "tags": [
+      "slugging",
+      "blindness"
+    ],
+    "character": "cannibal"
+  },
+  {
+    "name": "Languid Touch",
+    "slug": "languid_touch",
+    "type": "killer",
+    "tags": [
+      "exhausted",
+      "crow"
+    ],
+    "character": "lich"
+  },
+  {
+    "name": "Lethal Pursuer",
+    "slug": "lethal_persuer",
+    "type": "killer",
+    "tags": [
+      "aura",
+      "early_game"
+    ],
+    "character": "nemesis"
+  },
+  {
+    "name": "Leverage",
+    "slug": "leverage",
+    "type": "killer",
+    "tags": [
+      "healing_speed",
+      "unhook",
+      "antiheal"
+    ],
+    "character": "skull_merchant"
+  },
+  {
+    "name": "Lightborn",
+    "slug": "lightborn",
+    "type": "killer",
+    "tags": [
+      "blind",
+      "aura"
+    ],
+    "character": "hillbilly"
+  },
+  {
+    "name": "Machine Learning",
+    "slug": "machine_learning",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "damage_generator",
+      "haste",
+      "undetectable",
+      "endgame"
+    ],
+    "character": "singularity"
+  },
+  {
+    "name": "Mad Grit",
+    "slug": "mad_grit",
+    "type": "killer",
+    "tags": [
+      "carrying",
+      "wiggle"
+    ],
+    "character": "legion"
+  },
+  {
+    "name": "Make Your Choice",
+    "slug": "make_your_choice",
+    "type": "killer",
+    "tags": [
+      "scream",
+      "loud_noise_notification",
+      "exposed",
+      "unhook",
+      "fair_play"
+    ],
+    "character": "pig"
+  },
+  {
+    "name": "Merciless Storm",
+    "slug": "merciless_storm",
+    "type": "killer",
+    "tags": [
+      "skill_check",
+      "generator",
+      "generator_block"
+    ],
+    "character": "onryo"
+  },
+  {
+    "name": "Mindbreaker",
+    "slug": "mindbreaker",
+    "type": "killer",
+    "tags": [
+      "blindness",
+      "exhausted"
+    ],
+    "character": "demogorgon"
+  },
+  {
+    "name": "Monitor & Abuse",
+    "slug": "monitor_and_abuse",
+    "type": "killer",
+    "tags": [
+      "terror_radius"
+    ],
+    "character": "doctor"
+  },
+  {
+    "name": "Nemesis",
+    "slug": "nemesis",
+    "type": "killer",
+    "tags": [
+      "stun",
+      "pallet",
+      "locker",
+      "pallet_stun",
+      "obsession",
+      "obsession_change",
+      "oblivious",
+      "aura"
+    ],
+    "character": "oni"
+  },
+  {
+    "name": "No Quarter",
+    "slug": "no_quarter",
+    "type": "killer",
+    "tags": [
+      "broken",
+      "skill_check"
+    ],
+    "character": "houndmaster"
+  },
+  {
+    "name": "No Way Out",
+    "slug": "no_way_out",
+    "type": "killer",
+    "tags": [
+      "exit_gate",
+      "loud_noise_notification",
+      "endgame"
+    ],
+    "character": "trickster"
+  },
+  {
+    "name": "Nowhere to Hide",
+    "slug": "nowhere_to_hide",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "damage_generator",
+      "aura"
+    ],
+    "character": "knight"
+  },
+  {
+    "name": "Oppression",
+    "slug": "oppression",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "damage_generator",
+      "regression",
+      "skill_check"
+    ],
+    "character": "twins"
+  },
+  {
+    "name": "Overcharge",
+    "slug": "overcharge",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "damage_generator",
+      "regression",
+      "skill_check"
+    ],
+    "character": "doctor"
+  },
+  {
+    "name": "Overwhelming Presence",
+    "slug": "overwhelming_presence",
+    "type": "killer",
+    "tags": [
+      "terror_radius",
+      "item"
+    ],
+    "character": "doctor"
+  },
+  {
+    "name": "Play with Your Food",
+    "slug": "play_with_your_food",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "stacks",
+      "haste"
+    ],
+    "character": "shape"
+  },
+  {
+    "name": "Pop Goes the Weasel",
+    "slug": "pop_goes_the_weasel",
+    "type": "killer",
+    "tags": [
+      "hook",
+      "generator",
+      "damage_generator",
+      "regression"
+    ],
+    "character": "clown"
+  },
+  {
+    "name": "Predator",
+    "slug": "predator",
+    "type": "killer",
+    "tags": [
+      "aura"
+    ],
+    "character": "wraith"
+  },
+  {
+    "name": "Rancor",
+    "slug": "rancor",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "kill",
+      "exit_gate",
+      "exposed",
+      "loud_noise_notification",
+      "endgame"
+    ],
+    "character": "spirit"
+  },
+  {
+    "name": "Rapid Brutality",
+    "slug": "rapid_brutality",
+    "type": "killer",
+    "tags": [
+      "bloodlust",
+      "haste"
+    ],
+    "character": "xenomorph"
+  },
+  {
+    "name": "Remember Me",
+    "slug": "remember_me",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "exit_gate",
+      "endgame",
+      "tunnelling"
+    ],
+    "character": "nightmare"
+  },
+  {
+    "name": "Save the Best for Last",
+    "slug": "sbfl",
+    "type": "killer",
+    "tags": [
+      "obsession",
+      "stacks",
+      "endgame"
+    ],
+    "character": "shape"
+  },
+  {
+    "name": "Scourge Hook: Floods of Rage",
+    "slug": "floods_of_rage",
+    "type": "killer",
+    "tags": [
+      "scourge_hook",
+      "hook",
+      "unhook",
+      "aura"
+    ],
+    "character": "onryo"
+  },
+  {
+    "name": "Scourge Hook: Gift of Pain",
+    "slug": "gift_of_pain",
+    "type": "killer",
+    "tags": [
+      "scourge_hook",
+      "hook",
+      "unhook",
+      "haemorrhage",
+      "mangled",
+      "repair_speed",
+      "heal_speed",
+      "antiheal"
+    ],
+    "character": "cenobite"
+  },
+  {
+    "name": "Scourge Hook: Hangman's Trick",
+    "slug": "hangmans_trick",
+    "type": "killer",
+    "tags": [
+      "scourge_hook",
+      "hook",
+      "loud_noise_notification",
+      "carrying",
+      "aura"
+    ],
+    "character": "pig"
+  },
+  {
+    "name": "Scourge Hook: Jagged Compass",
+    "slug": "jagged_compass",
+    "type": "killer",
+    "tags": [
+      "scourge_hook",
+      "hook",
+      "aura"
+    ],
+    "character": "houndmaster"
+  },
+  {
+    "name": "Scourge Hook: Monstrous Shrine",
+    "slug": "monstrous_shrine",
+    "type": "killer",
+    "tags": [
+      "scourge_hook",
+      "hook",
+      "basement",
+      "camping"
+    ]
+  },
+  {
+    "name": "Scourge Hook: Pain Resonance",
+    "slug": "pain_resonance",
+    "type": "killer",
+    "tags": [
+      "scourge_hook",
+      "hook",
+      "regression",
+      "scream"
+    ],
+    "character": "artist"
+  },
+  {
+    "name": "Septic Touch",
+    "slug": "septic_touch",
+    "type": "killer",
+    "tags": [
+      "terror_radius",
+      "blindness",
+      "exhausted",
+      "antiheal"
+    ],
+    "character": "dredge"
+  },
+  {
+    "name": "Shadowborn",
+    "slug": "shadowborn",
+    "type": "killer",
+    "tags": [
+      "blind",
+      "haste"
+    ],
+    "character": "wraith"
+  },
+  {
+    "name": "Shattered Hope",
+    "slug": "shattered_hope",
+    "type": "killer",
+    "tags": [
+      "totem",
+      "aura"
+    ]
+  },
+  {
+    "name": "Sloppy Butcher",
+    "slug": "sloppy_butcher",
+    "type": "killer",
+    "tags": [
+      "haemorrhage",
+      "mangled",
+      "antiheal"
+    ]
+  },
+  {
+    "name": "Spies from the Shadows",
+    "slug": "spies_from_the_shadows",
+    "type": "killer",
+    "tags": [
+      "crow",
+      "loud_noise_notification"
+    ]
+  },
+  {
+    "name": "Spirit Fury",
+    "slug": "spirit_fury",
+    "type": "killer",
+    "tags": [
+      "pallet",
+      "pallet_break"
+    ],
+    "character": "spirit"
+  },
+  {
+    "name": "Starstruck",
+    "slug": "starstruck",
+    "type": "killer",
+    "tags": [
+      "terror_radius",
+      "exposed",
+      "carrying"
+    ],
+    "character": "trickster"
+  },
+  {
+    "name": "Stridor",
+    "slug": "stridor",
+    "type": "killer",
+    "tags": [
+    ],
+    "character": "nurse"
+  },
+  {
+    "name": "Superior Anatomy",
+    "slug": "superior_anatomy",
+    "type": "killer",
+    "tags": [
+      "vault",
+      "vault_speed"
+    ],
+    "character": "mastermind"
+  },
+  {
+    "name": "Surge",
+    "slug": "surge",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "regression"
+    ],
+    "character": "demogorgon"
+  },
+  {
+    "name": "Surveillance",
+    "slug": "surveillance",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "regression",
+      "aura"
+    ],
+    "character": "pig"
+  },
+  {
+    "name": "THWACK!",
+    "slug": "thwack",
+    "type": "killer",
+    "tags": [
+      "pallet",
+      "damage_generator",
+      "hook",
+      "scream",
+      "loud_noise_notification"
+    ],
+    "character": "skull_merchant"
+  },
+  {
+    "name": "Terminus",
+    "slug": "terminus",
+    "type": "killer",
+    "tags": [
+      "broken",
+      "exit_gate",
+      "endgame"
+    ],
+    "character": "mastermind"
+  },
+  {
+    "name": "Territorial Imperative",
+    "slug": "territorial_imperative",
+    "type": "killer",
+    "tags": [
+      "aura",
+      "basement"
+    ],
+    "character": "huntress"
+  },
+  {
+    "name": "Thanatophobia",
+    "slug": "thanatophobia",
+    "type": "killer",
+    "tags": [
+      "repair_speed"
+    ],
+    "character": "nurse"
+  },
+  {
+    "name": "Thrilling Tremors",
+    "slug": "thrilling_tremors",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "generator_block",
+      "carrying"
+    ],
+    "character": "nurse"
+  },
+  {
+    "name": "Tinkerer",
+    "slug": "tinkerer",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "undetectable",
+      "loud_noise_notification"
+    ],
+    "character": "hillbilly"
+  },
+  {
+    "name": "Trail of Torment",
+    "slug": "trail_of_torment",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "damage_generator",
+      "undetectable"
+    ],
+    "character": "executioner"
+  },
+  {
+    "name": "Ultimate Weapon",
+    "slug": "ultimate_weapon",
+    "type": "killer",
+    "tags": [
+      "locker",
+      "scream",
+      "loud_noise_notification",
+      "slugging"
+    ],
+    "character": "xenomorph"
+  },
+  {
+    "name": "Unbound",
+    "slug": "unbound",
+    "type": "killer",
+    "tags": [
+      "vault",
+      "haste"
+    ],
+    "character": "unknown"
+  },
+  {
+    "name": "Undone",
+    "slug": "undone",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "damage_generator",
+      "regression",
+      "generator_block",
+      "stacks",
+      "skill_check"
+    ],
+    "character": "unknown"
+  },
+  {
+    "name": "Unforeseen",
+    "slug": "unforeseen",
+    "type": "killer",
+    "tags": [
+      "generator",
+      "damage_generator",
+      "undetectable",
+      "terror_radius"
+    ],
+    "character": "unknown"
+  },
+  {
+    "name": "Unnerving Presence",
+    "slug": "unnerving_presence",
+    "type": "killer",
+    "tags": [
+      "terror_radius",
+      "skill_check"
+    ],
+    "character": "trapper"
+  },
+  {
+    "name": "Unrelenting",
+    "slug": "unrelenting",
+    "type": "killer",
+    "tags": [
+    ]
+  },
+  {
+    "name": "Weave Attunement",
+    "slug": "weave_attunement",
+    "type": "killer",
+    "tags": [
+      "item",
+      "aura",
+      "oblivious"
+    ],
+    "character": "lich"
+  },
+  {
+    "name": "Whispers",
+    "slug": "whispers",
+    "type": "killer",
+    "tags": [
+    ]
+  },
+  {
+    "name": "Zanshin Tactics",
+    "slug": "zanshin_tactics",
+    "type": "killer",
+    "tags": [
+      "pallet",
+      "aura"
+    ],
+    "character": "oni"
+  }
+]

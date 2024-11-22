@@ -1,18 +1,22 @@
 <template>
   <div class="flex-center">
-    <img alt="salt" src="~/assets/salt.jpeg"/>
+    <img alt="faq" src="~/assets/faq.jpeg"/>
   </div>
-  <p>
-    <small>You can write whatever you want here. There is no moderation</small>
-  </p>
-  <CommentsSection url="https://facecamp671.ru/"/>
+
+  <PerkTable :perks="killerPerks"/>
+
+  <CommentsSection/>
 </template>
 
 <script lang="ts" setup>
-const seoTitle = 'FaceCamp671 - Comments'
+import PerksJSON from '~/assets/perks.json';
+
+const killerPerks = (PerksJSON as Perk[]).filter(perk => perk.type === 'killer');
+
+const seoTitle = 'FaceCamp671 - Killer perks'
 
 definePageMeta({
-  title: 'Comments'
+  title: 'Killer perks'
 })
 
 useSeoMeta({
@@ -21,7 +25,7 @@ useSeoMeta({
   ogTitle: seoTitle,
   ogDescription: seoTitle,
   ogImage: '/apple-touch-icon.png',
-  ogUrl: 'https://facecamp671.ru/salt',
+  ogUrl: 'https://facecamp671.ru/perks/killer',
   twitterTitle: seoTitle,
   twitterDescription: seoTitle,
   twitterImage: '/apple-touch-icon.png',
