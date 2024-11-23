@@ -23,7 +23,7 @@ useSeoMeta({
   ogTitle: seoTitle,
   ogDescription: seoTitle,
   ogImage: '/apple-touch-icon.png',
-  ogUrl: 'https://facecamp671.ru/faq',
+  ogUrl: 'https://facecamp671.ru/wiki',
   twitterTitle: seoTitle,
   twitterDescription: seoTitle,
   twitterImage: '/apple-touch-icon.png',

@@ -3,7 +3,7 @@
     <img alt="faq" src="~/assets/faq.jpeg"/>
   </div>
 
-  <PerkTable :perks="allPerks"/>
+  <PerkTable :perks="killerPerks"/>
 
   <hr/>
 
@@ -17,12 +17,13 @@ import PerksYAML from '~/assets/perks.yaml?raw'
 const {t} = useI18n()
 
 const allPerks = parse(PerksYAML ?? '[]') as Perk[]
+const killerPerks = allPerks.filter(perk => perk.type === 'survivor')
 
-const pageTitle = t('all_perks')
+const pageTitle = t('survivor_perks')
 const seoTitle = `FaceCamp671 - ${pageTitle}`
 
 definePageMeta({
-  title: 'all_perks'
+  title: 'survivor_perks'
 })
 
 useSeoMeta({
@@ -31,7 +32,7 @@ useSeoMeta({
   ogTitle: seoTitle,
   ogDescription: seoTitle,
   ogImage: '/apple-touch-icon.png',
-  ogUrl: 'https://facecamp671.ru/perks',
+  ogUrl: 'https://facecamp671.ru/perks/survivor',
   twitterTitle: seoTitle,
   twitterDescription: seoTitle,
   twitterImage: '/apple-touch-icon.png',
