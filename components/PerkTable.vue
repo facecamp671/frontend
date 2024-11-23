@@ -52,8 +52,7 @@ const queryTags = computed<string[]>(() => query.value
 
 const searchByTags = computed(() => t('search_by_tags'))
 const filteredPerks = computed(() => props.perks
-    .filter((p) => queryTags.value.every((tag) => p.tags.includes(tag)))
-    .sort((a, b) => (b.my_rating ?? 0) - (a.my_rating ?? 0)))
+    .filter((p) => queryTags.value.every((tag) => p.tags.includes(tag))))
 const hideTags = computed(() => (props.hideTags ?? []).concat(queryTags.value))
 
 function onAddTag(tag: string) {
