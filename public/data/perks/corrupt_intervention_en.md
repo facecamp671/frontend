@@ -1,5 +1,4 @@
-At the start of the Trial, the [3 Generators]{.bhvr-yellow} located farthest from you are blocked by The Entity for [80]
-{.bhvr-yellow}/[100]{.bhvr-green}/[120]{.bhvr-purple} seconds.
+At the start of the Trial, the [3 Generators]{.bhvr-yellow} located farthest from you are blocked by The Entity for [80]{.bhvr-yellow}/[100]{.bhvr-green}/[120]{.bhvr-purple} seconds.
 
 *Corrupt Intervention deactivates prematurely once the first Survivor is put into the Dying State*
 
