@@ -1,133 +1,3 @@
-- slug: nurses_calling
-  name: A Nurse's Calling
-  type: killer
-  tags:
-    - aura
-    - antiheal
-  character: nurse
-
-- slug: agitation
-  name: Agitation
-  type: killer
-  tags:
-    - carrying
-    - haste
-    - terror_radius
-  character: trapper
-
-- slug: alien_instinct
-  name: Alien Instinct
-  type: killer
-  tags:
-    - aura
-    - oblivious
-    - hook
-  character: xenomorph
-
-- slug: all_shaking_thunder
-  name: All-Shaking Thunder
-  type: killer
-  tags:
-    - lunge
-  character: houndmaster
-
-- slug: awakened_awareness
-  name: Awakened Awareness
-  type: killer
-  tags:
-    - aura
-    - carrying
-  character: mastermind
-
-- slug: bamboozle
-  name: Bamboozle
-  type: killer
-  tags:
-    - vault
-    - vault_speed
-    - vault_block
-  character: clown
-
-- slug: barbecue_and_chilli
-  name: Barbecue & Chilli
-  type: killer
-  tags:
-    - aura
-    - hook
-  character: cannibal
-
-- slug: batteries_included
-  name: Batteries Included
-  type: killer
-  tags:
-    - haste
-    - generator
-    - endgame
-  character: good_guy
-
-- slug: beast_of_pray
-  name: Beast of Prey
-  type: killer
-  tags:
-    - bloodlust
-    - undetectable
-    - bloodpoints
-  character: huntress
-
-- slug: bitter_murmur
-  name: Bitter Murmur
-  type: killer
-  tags:
-    - aura
-    - generator
-    - endgame
-- slug: blood_echo
-  name: Blood Echo
-  type: killer
-  tags:
-    - exhausted
-    - haemorrhage
-    - hook
-  character: oni
-
-- slug: blood_warden
-  name: Blood Warden
-  type: killer
-  tags:
-    - exit_gate
-    - aura
-    - hook
-    - endgame
-  character: nightmare
-
-- slug: bloodhound
-  name: Bloodhound
-  type: killer
-  tags:
-    - pools_of_blood
-  character: wraith
-
-- slug: brutal_strength
-  name: Brutal Strength
-  type: killer
-  tags:
-    - damage_generator
-    - pallet
-    - generator
-  character: trapper
-
-- slug: call_of_brine
-  name: Call of Brine
-  type: killer
-  tags:
-    - damage_generator
-    - generator
-    - regression
-    - aura
-    - loud_noise_notification
-    - skill_check
-  character: onryo
-
 - slug: corrupt_intervention
   name: Corrupt Intervention
   type: killer
@@ -137,72 +7,6 @@
     - early_game
   character: plague
 
-- slug: coulrophobia
-  name: Coulrophobia
-  type: killer
-  tags:
-    - healing_speed
-    - skill_check
-    - terror_radius
-    - antiheal
-  character: clown
-
-- slug: coup_de_grace
-  name: Coup de Grâce
-  type: killer
-  tags:
-    - lunge
-    - generator
-    - endgame
-  character: twins
-
-- slug: cruel_limits
-  name: Cruel Limits
-  type: killer
-  tags:
-    - vault
-    - generator
-    - vault_block
-    - aura
-  character: demogorgon
-
-- slug: dark_arrogance
-  name: Dark Arrogance
-  type: killer
-  tags:
-    - blind
-    - stun
-    - pallet_stun
-    - vault
-    - vault_speed
-  character: lich
-
-- slug: dark_devotion
-  name: Dark Devotion
-  type: killer
-  tags:
-    - obsession
-    - terror_radius
-    - undetectable
-  character: lich
-
-- slug: darkness_revealed
-  name: Darkness Revealed
-  type: killer
-  tags:
-    - locker
-    - aura
-  character: dredge
-
-- slug: dead_mans_switch
-  name: Dead Man's Switch
-  type: killer
-  tags:
-    - generator
-    - generator_block
-    - hook
-  character: deathslinger
-
 - slug: deadlock
   name: Deadlock
   type: killer
@@ -211,83 +15,15 @@
     - generator_block
   character: cenobite
 
-- slug: deathbound
-  name: Deathbound
+- slug: pain_resonance
+  name: 'Scourge Hook: Pain Resonance'
   type: killer
   tags:
+    - scourge_hook
+    - hook
+    - regression
     - scream
-    - oblivious
-    - antiheal
-    - slugging
-  character: executioner
-
-- slug: deerstalker
-  name: Deerstalker
-  type: killer
-  tags:
-    - aura
-    - slugging
-- slug: discordance
-  name: Discordance
-  type: killer
-  tags:
-    - generator
-    - loud_noise_notification
-    - aura
-  character: legion
-
-- slug: dissolution
-  name: Dissolution
-  type: killer
-  tags:
-    - pallet
-    - pallet_break
-    - vault
-    - terror_radius
-  character: legion
-
-- slug: distressing
-  name: Distressing
-  type: killer
-  tags:
-    - terror_radius
-    - bloodpoints
-- slug: dominance
-  name: Dominance
-  type: killer
-  tags:
-    - chest
-    - totem
-    - aura
-  character: dark_lord
-
-- slug: dragons_grip
-  name: Dragon's Grip
-  type: killer
-  tags:
-    - generator
-    - damage_generator
-    - scream
-    - exposed
-  character: blight
-
-- slug: dying_light
-  name: Dying Light
-  type: killer
-  tags:
-    - obsession
-    - repair_speed
-    - heal_speed
-    - endgame
-  character: shape
-
-- slug: enduring
-  name: Enduring
-  type: killer
-  tags:
-    - pallet
-    - pallet_stun
-  character: hillbilly
+  character: artist
 
 - slug: eruption
   name: Eruption
@@ -299,88 +35,41 @@
     - aura
   character: nemesis
 
-- slug: fire_up
-  name: Fire Up
+- slug: pop_goes_the_weasel
+  name: Pop Goes the Weasel
   type: killer
   tags:
-    - pallet
+    - hook
     - generator
-    - vault
-    - vault_speed
-    - stacks
-    - endgame
-  character: nightmare
-
-- slug: forced_hesitation
-  name: Forced Hesitation
-  type: killer
-  tags:
-    - hindered
-    - slugging
-  character: singularity
-
-- slug: forced_penance
-  name: Forced Penance
-  type: killer
-  tags:
-    - broken
-    - protection_hit
-  character: executioner
-
-- slug: franklins_demise
-  name: Franklin's Demise
-  type: killer
-  tags:
-    - item
-  character: cannibal
-
-- slug: friends_til_the_end
-  name: Friends 'til the End
-  type: killer
-  tags:
-    - obsession
-    - obsession_change
-    - aura
-    - exposed
-    - fair_play
-  character: good_guy
-
-- slug: furtive_chase
-  name: Furtive Chase
-  type: killer
-  tags:
-    - obsession
-    - obsession_change
-    - undetectable
-    - haste
-  character: ghost_face
-
-- slug: game_afoot
-  name: Game Afoot
-  type: killer
-  tags:
-    - obsession
-    - haste
-    - generator
-    - pallet
     - damage_generator
-    - endgame
-  character: skull_merchant
+    - regression
+  character: clown
 
-- slug: gearhead
-  name: Gearhead
+- slug: no_way_out
+  name: No Way Out
   type: killer
   tags:
-    - skill_check
-    - aura
+    - exit_gate
+    - loud_noise_notification
+    - endgame
+  character: trickster
+
+- slug: dead_mans_switch
+  name: Dead Man's Switch
+  type: killer
+  tags:
+    - generator
+    - generator_block
+    - hook
   character: deathslinger
 
-- slug: genetic_limits
-  name: Genetic Limits
+- slug: lethal_persuer
+  name: Lethal Pursuer
   type: killer
   tags:
-    - exhausted
-  character: singularity
+    - aura
+    - early_game
+  character: nemesis
 
 - slug: grim_embrace
   name: Grim Embrace
@@ -393,6 +82,16 @@
     - fair_play
   character: artist
 
+- slug: hex_noed
+  name: 'Hex: No One Escapes Death'
+  type: killer
+  tags:
+    - hex
+    - totem
+    - exposed
+    - haste
+    - endgame
+
 - slug: hex_blood_favour
   name: 'Hex: Blood Favour'
   type: killer
@@ -402,6 +101,197 @@
     - pallet
     - early_game
   character: blight
+
+- slug: surge
+  name: Surge
+  type: killer
+  tags:
+    - generator
+    - regression
+  character: demogorgon
+
+- slug: hex_pentimento
+  name: 'Hex: Pentimento'
+  type: killer
+  tags:
+    - hex
+    - totem
+    - repair_speed
+    - heal_speed
+  character: artist
+
+- slug: discordance
+  name: Discordance
+  type: killer
+  tags:
+    - generator
+    - loud_noise_notification
+    - aura
+  character: legion
+
+- slug: bamboozle
+  name: Bamboozle
+  type: killer
+  tags:
+    - vault
+    - vault_speed
+    - vault_block
+  character: clown
+
+- slug: leverage
+  name: Leverage
+  type: killer
+  tags:
+    - healing_speed
+    - unhook
+    - antiheal
+  character: skull_merchant
+
+- slug: machine_learning
+  name: Machine Learning
+  type: killer
+  tags:
+    - generator
+    - damage_generator
+    - haste
+    - undetectable
+    - endgame
+  character: singularity
+
+- slug: unforeseen
+  name: Unforeseen
+  type: killer
+  tags:
+    - generator
+    - damage_generator
+    - undetectable
+    - terror_radius
+  character: unknown
+
+- slug: hex_undying
+  name: 'Hex: Undying'
+  type: killer
+  tags:
+    - hex
+    - totem
+    - aura
+  character: blight
+
+- slug: gift_of_pain
+  name: 'Scourge Hook: Gift of Pain'
+  type: killer
+  tags:
+    - scourge_hook
+    - hook
+    - unhook
+    - haemorrhage
+    - mangled
+    - repair_speed
+    - heal_speed
+    - antiheal
+  character: cenobite
+
+- slug: trail_of_torment
+  name: Trail of Torment
+  type: killer
+  tags:
+    - generator
+    - damage_generator
+    - undetectable
+  character: executioner
+
+- slug: enduring
+  name: Enduring
+  type: killer
+  tags:
+    - pallet
+    - pallet_stun
+  character: hillbilly
+
+- slug: spirit_fury
+  name: Spirit Fury
+  type: killer
+  tags:
+    - pallet
+    - pallet_break
+  character: spirit
+
+- slug: coup_de_grace
+  name: Coup de Grâce
+  type: killer
+  tags:
+    - lunge
+    - generator
+    - endgame
+  character: twins
+
+- slug: sloppy_butcher
+  name: Sloppy Butcher
+  type: killer
+  tags:
+    - haemorrhage
+    - mangled
+    - antiheal
+
+- slug: hex_plaything
+  name: 'Hex: Plaything'
+  type: killer
+  tags:
+    - hex
+    - totem
+    - oblivious
+  character: cenobite
+
+- slug: barbecue_and_chilli
+  name: Barbecue & Chilli
+  type: killer
+  tags:
+    - aura
+    - hook
+  character: cannibal
+
+- slug: agitation
+  name: Agitation
+  type: killer
+  tags:
+    - carrying
+    - haste
+    - terror_radius
+  character: trapper
+
+- slug: superior_anatomy
+  name: Superior Anatomy
+  type: killer
+  tags:
+    - vault
+    - vault_speed
+  character: mastermind
+
+- slug: brutal_strength
+  name: Brutal Strength
+  type: killer
+  tags:
+    - damage_generator
+    - pallet
+    - generator
+  character: trapper
+
+- slug: sbfl
+  name: Save the Best for Last
+  type: killer
+  tags:
+    - obsession
+    - stacks
+    - endgame
+  character: shape
+
+- slug: rapid_brutality
+  name: Rapid Brutality
+  type: killer
+  tags:
+    - bloodlust
+    - haste
+  character: xenomorph
 
 - slug: hex_crowd_control
   name: 'Hex: Crowd Control'
@@ -413,6 +303,125 @@
     - vault_block
     - early_game
   character: trickster
+
+- slug: nowhere_to_hide
+  name: Nowhere to Hide
+  type: killer
+  tags:
+    - generator
+    - damage_generator
+    - aura
+  character: knight
+
+- slug: franklins_demise
+  name: Franklin's Demise
+  type: killer
+  tags:
+    - item
+  character: cannibal
+
+- slug: weave_attunement
+  name: Weave Attunement
+  type: killer
+  tags:
+    - item
+    - aura
+    - oblivious
+  character: lich
+
+- slug: im_all_ears
+  name: I'm All Ears
+  type: killer
+  tags:
+    - vault
+    - aura
+  character: ghost_face
+
+- slug: starstruck
+  name: Starstruck
+  type: killer
+  tags:
+    - terror_radius
+    - exposed
+    - carrying
+  character: trickster
+
+- slug: floods_of_rage
+  name: 'Scourge Hook: Floods of Rage'
+  type: killer
+  tags:
+    - scourge_hook
+    - hook
+    - unhook
+    - aura
+  character: onryo
+
+- slug: hex_ruin
+  name: 'Hex: Ruin'
+  type: killer
+  tags:
+    - hex
+    - totem
+    - regression
+  character: hag
+
+- slug: friends_til_the_end
+  name: Friends 'til the End
+  type: killer
+  tags:
+    - obsession
+    - obsession_change
+    - aura
+    - exposed
+    - fair_play
+  character: good_guy
+
+- slug: knock_out
+  name: Knock Out
+  type: killer
+  tags:
+    - slugging
+    - blindness
+  character: cannibal
+
+- slug: infectious_fright
+  name: Infectious Fright
+  type: killer
+  tags:
+    - terror_radius
+    - scream
+    - loud_noise_notification
+    - slugging
+  character: plague
+
+- slug: oppression
+  name: Oppression
+  type: killer
+  tags:
+    - generator
+    - damage_generator
+    - regression
+    - skill_check
+  character: twins
+
+- slug: tinkerer
+  name: Tinkerer
+  type: killer
+  tags:
+    - generator
+    - undetectable
+    - loud_noise_notification
+  character: hillbilly
+
+- slug: furtive_chase
+  name: Furtive Chase
+  type: killer
+  tags:
+    - obsession
+    - obsession_change
+    - undetectable
+    - haste
+  character: ghost_face
 
 - slug: hex_devour_hope
   name: 'Hex: Devour Hope'
@@ -427,6 +436,195 @@
     - stacks
     - fair_play
   character: hag
+
+- slug: gearhead
+  name: Gearhead
+  type: killer
+  tags:
+    - skill_check
+    - aura
+  character: deathslinger
+
+- slug: darkness_revealed
+  name: Darkness Revealed
+  type: killer
+  tags:
+    - locker
+    - aura
+  character: dredge
+
+- slug: nurses_calling
+  name: A Nurse's Calling
+  type: killer
+  tags:
+    - aura
+    - antiheal
+  character: nurse
+
+
+- slug: rancor
+  name: Rancor
+  type: killer
+  tags:
+    - obsession
+    - kill
+    - exit_gate
+    - exposed
+    - loud_noise_notification
+    - endgame
+  character: spirit
+
+- slug: bitter_murmur
+  name: Bitter Murmur
+  type: killer
+  tags:
+    - aura
+    - generator
+    - endgame
+
+- slug: spies_from_the_shadows
+  name: Spies from the Shadows
+  type: killer
+  tags:
+    - crow
+    - loud_noise_notification
+
+- slug: lightborn
+  name: Lightborn
+  type: killer
+  tags:
+    - blind
+    - aura
+  character: hillbilly
+
+- slug: remember_me
+  name: Remember Me
+  type: killer
+  tags:
+    - obsession
+    - exit_gate
+    - endgame
+    - tunnelling
+  character: nightmare
+
+- slug: dissolution
+  name: Dissolution
+  type: killer
+  tags:
+    - pallet
+    - pallet_break
+    - vault
+    - terror_radius
+  character: legion
+
+- slug: blood_warden
+  name: Blood Warden
+  type: killer
+  tags:
+    - exit_gate
+    - aura
+    - hook
+    - endgame
+  character: nightmare
+
+- slug: blood_echo
+  name: Blood Echo
+  type: killer
+  tags:
+    - exhausted
+    - haemorrhage
+    - hook
+  character: oni
+
+- slug: dark_arrogance
+  name: Dark Arrogance
+  type: killer
+  tags:
+    - blind
+    - stun
+    - pallet_stun
+    - vault
+    - vault_speed
+  character: lich
+
+- slug: deerstalker
+  name: Deerstalker
+  type: killer
+  tags:
+    - aura
+    - slugging
+
+- slug: deathbound
+  name: Deathbound
+  type: killer
+  tags:
+    - scream
+    - oblivious
+    - antiheal
+    - slugging
+  character: executioner
+
+- slug: human_greed
+  name: Human Greed
+  type: killer
+  tags:
+    - chest
+    - aura
+  character: dark_lord
+
+- slug: coulrophobia
+  name: Coulrophobia
+  type: killer
+  tags:
+    - healing_speed
+    - skill_check
+    - terror_radius
+    - antiheal
+  character: clown
+
+- slug: cruel_limits
+  name: Cruel Limits
+  type: killer
+  tags:
+    - vault
+    - generator
+    - vault_block
+    - aura
+  character: demogorgon
+
+- slug: dark_devotion
+  name: Dark Devotion
+  type: killer
+  tags:
+    - obsession
+    - terror_radius
+    - undetectable
+  character: lich
+
+- slug: dragons_grip
+  name: Dragon's Grip
+  type: killer
+  tags:
+    - generator
+    - damage_generator
+    - scream
+    - exposed
+  character: blight
+
+- slug: forced_hesitation
+  name: Forced Hesitation
+  type: killer
+  tags:
+    - hindered
+    - slugging
+  character: singularity
+
+- slug: genetic_limits
+  name: Genetic Limits
+  type: killer
+  tags:
+    - exhausted
+  character: singularity
 
 - slug: hex_face_the_darkness
   name: 'Hex: Face the Darkness'
@@ -448,63 +646,6 @@
     - exposed
   character: spirit
 
-- slug: hex_huntress_lullaby
-  name: 'Hex: Huntress Lullaby'
-  type: killer
-  tags:
-    - hex
-    - totem
-    - skill_check
-    - regression
-  character: huntress
-
-- slug: hex_noed
-  name: 'Hex: No One Escapes Death'
-  type: killer
-  tags:
-    - hex
-    - totem
-    - exposed
-    - haste
-    - endgame
-- slug: hex_pentimento
-  name: 'Hex: Pentimento'
-  type: killer
-  tags:
-    - hex
-    - totem
-    - repair_speed
-    - heal_speed
-  character: artist
-
-- slug: hex_plaything
-  name: 'Hex: Plaything'
-  type: killer
-  tags:
-    - hex
-    - totem
-    - oblivious
-  character: cenobite
-
-- slug: hex_retribution
-  name: 'Hex: Retribution'
-  type: killer
-  tags:
-    - hex
-    - totem
-    - oblivious
-    - aura
-  character: deathslinger
-
-- slug: hex_ruin
-  name: 'Hex: Ruin'
-  type: killer
-  tags:
-    - hex
-    - totem
-    - regression
-  character: hag
-
 - slug: hex_the_third_seal
   name: 'Hex: The Third Seal'
   type: killer
@@ -515,13 +656,6 @@
     - slugging
   character: hag
 
-- slug: hex_thrill_of_the_hunt
-  name: 'Hex: Thrill of the Hunt'
-  type: killer
-  tags:
-    - hex
-    - totem
-    - bloodpoints
 - slug: hex_two_can_play
   name: 'Hex: Two Can Play'
   type: killer
@@ -531,15 +665,6 @@
     - blind
     - pallet_stun
   character: good_guy
-
-- slug: hex_undying
-  name: 'Hex: Undying'
-  type: killer
-  tags:
-    - hex
-    - totem
-    - aura
-  character: blight
 
 - slug: hex_wretched_fate
   name: 'Hex: Wretched Fate'
@@ -551,14 +676,6 @@
     - repair_speed
   character: dark_lord
 
-- slug: hoarder
-  name: Hoarder
-  type: killer
-  tags:
-    - loud_noise_notification
-    - chest
-  character: twins
-
 - slug: hubris
   name: Hubris
   type: killer
@@ -568,14 +685,6 @@
     - exposed
   character: knight
 
-- slug: human_greed
-  name: Human Greed
-  type: killer
-  tags:
-    - chest
-    - aura
-  character: dark_lord
-
 - slug: hysteria
   name: Hysteria
   type: killer
@@ -583,35 +692,6 @@
     - oblivious
   character: nemesis
 
-- slug: im_all_ears
-  name: I'm All Ears
-  type: killer
-  tags:
-    - vault
-    - aura
-  character: ghost_face
-
-- slug: infectious_fright
-  name: Infectious Fright
-  type: killer
-  tags:
-    - terror_radius
-    - scream
-    - loud_noise_notification
-    - slugging
-  character: plague
-
-- slug: insidious
-  name: Insidious
-  type: killer
-  tags:
-    - undetectable
-- slug: iron_grasp
-  name: Iron Grasp
-  type: killer
-  tags:
-    - carrying
-    - wiggle
 - slug: iron_maiden
   name: Iron Maiden
   type: killer
@@ -622,14 +702,6 @@
     - loud_noise_notification
   character: legion
 
-- slug: knock_out
-  name: Knock Out
-  type: killer
-  tags:
-    - slugging
-    - blindness
-  character: cannibal
-
 - slug: languid_touch
   name: Languid Touch
   type: killer
@@ -637,42 +709,6 @@
     - exhausted
     - crow
   character: lich
-
-- slug: lethal_persuer
-  name: Lethal Pursuer
-  type: killer
-  tags:
-    - aura
-    - early_game
-  character: nemesis
-
-- slug: leverage
-  name: Leverage
-  type: killer
-  tags:
-    - healing_speed
-    - unhook
-    - antiheal
-  character: skull_merchant
-
-- slug: lightborn
-  name: Lightborn
-  type: killer
-  tags:
-    - blind
-    - aura
-  character: hillbilly
-
-- slug: machine_learning
-  name: Machine Learning
-  type: killer
-  tags:
-    - generator
-    - damage_generator
-    - haste
-    - undetectable
-    - endgame
-  character: singularity
 
 - slug: mad_grit
   name: Mad Grit
@@ -739,34 +775,6 @@
     - skill_check
   character: houndmaster
 
-- slug: no_way_out
-  name: No Way Out
-  type: killer
-  tags:
-    - exit_gate
-    - loud_noise_notification
-    - endgame
-  character: trickster
-
-- slug: nowhere_to_hide
-  name: Nowhere to Hide
-  type: killer
-  tags:
-    - generator
-    - damage_generator
-    - aura
-  character: knight
-
-- slug: oppression
-  name: Oppression
-  type: killer
-  tags:
-    - generator
-    - damage_generator
-    - regression
-    - skill_check
-  character: twins
-
 - slug: overcharge
   name: Overcharge
   type: killer
@@ -777,113 +785,12 @@
     - skill_check
   character: doctor
 
-- slug: overwhelming_presence
-  name: Overwhelming Presence
-  type: killer
-  tags:
-    - terror_radius
-    - item
-  character: doctor
-
-- slug: play_with_your_food
-  name: Play with Your Food
-  type: killer
-  tags:
-    - obsession
-    - stacks
-    - haste
-  character: shape
-
-- slug: pop_goes_the_weasel
-  name: Pop Goes the Weasel
-  type: killer
-  tags:
-    - hook
-    - generator
-    - damage_generator
-    - regression
-  character: clown
-
 - slug: predator
   name: Predator
   type: killer
   tags:
     - aura
   character: wraith
-
-- slug: rancor
-  name: Rancor
-  type: killer
-  tags:
-    - obsession
-    - kill
-    - exit_gate
-    - exposed
-    - loud_noise_notification
-    - endgame
-  character: spirit
-
-- slug: rapid_brutality
-  name: Rapid Brutality
-  type: killer
-  tags:
-    - bloodlust
-    - haste
-  character: xenomorph
-
-- slug: remember_me
-  name: Remember Me
-  type: killer
-  tags:
-    - obsession
-    - exit_gate
-    - endgame
-    - tunnelling
-  character: nightmare
-
-- slug: sbfl
-  name: Save the Best for Last
-  type: killer
-  tags:
-    - obsession
-    - stacks
-    - endgame
-  character: shape
-
-- slug: floods_of_rage
-  name: 'Scourge Hook: Floods of Rage'
-  type: killer
-  tags:
-    - scourge_hook
-    - hook
-    - unhook
-    - aura
-  character: onryo
-
-- slug: gift_of_pain
-  name: 'Scourge Hook: Gift of Pain'
-  type: killer
-  tags:
-    - scourge_hook
-    - hook
-    - unhook
-    - haemorrhage
-    - mangled
-    - repair_speed
-    - heal_speed
-    - antiheal
-  character: cenobite
-
-- slug: hangmans_trick
-  name: 'Scourge Hook: Hangman''s Trick'
-  type: killer
-  tags:
-    - scourge_hook
-    - hook
-    - loud_noise_notification
-    - carrying
-    - aura
-  character: pig
 
 - slug: jagged_compass
   name: 'Scourge Hook: Jagged Compass'
@@ -894,99 +801,91 @@
     - aura
   character: houndmaster
 
-- slug: monstrous_shrine
-  name: 'Scourge Hook: Monstrous Shrine'
+- slug: terminus
+  name: Terminus
   type: killer
   tags:
-    - scourge_hook
-    - hook
-    - basement
-    - camping
-- slug: pain_resonance
-  name: 'Scourge Hook: Pain Resonance'
-  type: killer
-  tags:
-    - scourge_hook
-    - hook
-    - regression
-    - scream
-  character: artist
+    - broken
+    - exit_gate
+    - endgame
+  character: mastermind
 
-- slug: septic_touch
-  name: Septic Touch
+- slug: thanatophobia
+  name: Thanatophobia
   type: killer
   tags:
-    - terror_radius
-    - blindness
-    - exhausted
-    - antiheal
-  character: dredge
+    - repair_speed
+  character: nurse
 
-- slug: shadowborn
-  name: Shadowborn
+- slug: batteries_included
+  name: Batteries Included
   type: killer
   tags:
-    - blind
     - haste
-  character: wraith
+    - generator
+    - endgame
+  character: good_guy
 
-- slug: shattered_hope
-  name: Shattered Hope
-  type: killer
-  tags:
-    - totem
-    - aura
-- slug: sloppy_butcher
-  name: Sloppy Butcher
-  type: killer
-  tags:
-    - haemorrhage
-    - mangled
-    - antiheal
-- slug: spies_from_the_shadows
-  name: Spies from the Shadows
-  type: killer
-  tags:
-    - crow
-    - loud_noise_notification
-- slug: spirit_fury
-  name: Spirit Fury
+- slug: zanshin_tactics
+  name: Zanshin Tactics
   type: killer
   tags:
     - pallet
-    - pallet_break
-  character: spirit
+    - aura
+  character: oni
 
-- slug: starstruck
-  name: Starstruck
+- slug: forced_penance
+  name: Forced Penance
   type: killer
   tags:
-    - terror_radius
-    - exposed
-    - carrying
-  character: trickster
+    - broken
+    - protection_hit
+  character: executioner
 
-- slug: stridor
-  name: Stridor
-  type: killer
-  tags: [ ]
-  character: nurse
-
-- slug: superior_anatomy
-  name: Superior Anatomy
+- slug: all_shaking_thunder
+  name: All-Shaking Thunder
   type: killer
   tags:
-    - vault
-    - vault_speed
-  character: mastermind
+    - lunge
+  character: houndmaster
 
-- slug: surge
-  name: Surge
+- slug: play_with_your_food
+  name: Play with Your Food
+  type: killer
+  tags:
+    - obsession
+    - stacks
+    - haste
+  character: shape
+
+- slug: hex_retribution
+  name: 'Hex: Retribution'
+  type: killer
+  tags:
+    - hex
+    - totem
+    - oblivious
+    - aura
+  character: deathslinger
+
+- slug: thrilling_tremors
+  name: Thrilling Tremors
   type: killer
   tags:
     - generator
-    - regression
-  character: demogorgon
+    - generator_block
+    - carrying
+  character: nurse
+
+- slug: ultimate_weapon
+  name: Ultimate Weapon
+  type: killer
+  tags:
+    - locker
+    - scream
+    - loud_noise_notification
+    - slugging
+  character: xenomorph
 
 - slug: surveillance
   name: Surveillance
@@ -996,6 +895,46 @@
     - regression
     - aura
   character: pig
+
+- slug: insidious
+  name: Insidious
+  type: killer
+  tags:
+    - undetectable
+
+- slug: iron_grasp
+  name: Iron Grasp
+  type: killer
+  tags:
+    - carrying
+    - wiggle
+
+- slug: hex_huntress_lullaby
+  name: 'Hex: Huntress Lullaby'
+  type: killer
+  tags:
+    - hex
+    - totem
+    - skill_check
+    - regression
+  character: huntress
+
+- slug: dominance
+  name: Dominance
+  type: killer
+  tags:
+    - chest
+    - totem
+    - aura
+  character: dark_lord
+
+- slug: unbound
+  name: Unbound
+  type: killer
+  tags:
+    - vault
+    - haste
+  character: unknown
 
 - slug: thwack
   name: THWACK!
@@ -1008,74 +947,27 @@
     - loud_noise_notification
   character: skull_merchant
 
-- slug: terminus
-  name: Terminus
+- slug: stridor
+  name: Stridor
   type: killer
-  tags:
-    - broken
-    - exit_gate
-    - endgame
-  character: mastermind
+  tags: [ ]
+  character: nurse
 
-- slug: territorial_imperative
-  name: Territorial Imperative
+- slug: awakened_awareness
+  name: Awakened Awareness
   type: killer
   tags:
     - aura
-    - basement
-  character: huntress
-
-- slug: thanatophobia
-  name: Thanatophobia
-  type: killer
-  tags:
-    - repair_speed
-  character: nurse
-
-- slug: thrilling_tremors
-  name: Thrilling Tremors
-  type: killer
-  tags:
-    - generator
-    - generator_block
     - carrying
-  character: nurse
+  character: mastermind
 
-- slug: tinkerer
-  name: Tinkerer
+- slug: hoarder
+  name: Hoarder
   type: killer
   tags:
-    - generator
-    - undetectable
     - loud_noise_notification
-  character: hillbilly
-
-- slug: trail_of_torment
-  name: Trail of Torment
-  type: killer
-  tags:
-    - generator
-    - damage_generator
-    - undetectable
-  character: executioner
-
-- slug: ultimate_weapon
-  name: Ultimate Weapon
-  type: killer
-  tags:
-    - locker
-    - scream
-    - loud_noise_notification
-    - slugging
-  character: xenomorph
-
-- slug: unbound
-  name: Unbound
-  type: killer
-  tags:
-    - vault
-    - haste
-  character: unknown
+    - chest
+  character: twins
 
 - slug: undone
   name: Undone
@@ -1089,15 +981,10 @@
     - skill_check
   character: unknown
 
-- slug: unforeseen
-  name: Unforeseen
+- slug: whispers
+  name: Whispers
   type: killer
-  tags:
-    - generator
-    - damage_generator
-    - undetectable
-    - terror_radius
-  character: unknown
+  tags: [ ]
 
 - slug: unnerving_presence
   name: Unnerving Presence
@@ -1107,28 +994,154 @@
     - skill_check
   character: trapper
 
+- slug: shadowborn
+  name: Shadowborn
+  type: killer
+  tags:
+    - blind
+    - haste
+  character: wraith
+
+- slug: alien_instinct
+  name: Alien Instinct
+  type: killer
+  tags:
+    - aura
+    - oblivious
+    - hook
+  character: xenomorph
+
+- slug: monstrous_shrine
+  name: 'Scourge Hook: Monstrous Shrine'
+  type: killer
+  tags:
+    - scourge_hook
+    - hook
+    - basement
+    - camping
+
+- slug: fire_up
+  name: Fire Up
+  type: killer
+  tags:
+    - pallet
+    - generator
+    - vault
+    - vault_speed
+    - stacks
+    - endgame
+  character: nightmare
+
+- slug: dying_light
+  name: Dying Light
+  type: killer
+  tags:
+    - obsession
+    - repair_speed
+    - heal_speed
+    - endgame
+  character: shape
+
+- slug: game_afoot
+  name: Game Afoot
+  type: killer
+  tags:
+    - obsession
+    - haste
+    - generator
+    - pallet
+    - damage_generator
+    - endgame
+  character: skull_merchant
+
+- slug: call_of_brine
+  name: Call of Brine
+  type: killer
+  tags:
+    - damage_generator
+    - generator
+    - regression
+    - aura
+    - loud_noise_notification
+    - skill_check
+  character: onryo
+
+- slug: hex_thrill_of_the_hunt
+  name: 'Hex: Thrill of the Hunt'
+  type: killer
+  tags:
+    - hex
+    - totem
+    - bloodpoints
+
+- slug: septic_touch
+  name: Septic Touch
+  type: killer
+  tags:
+    - terror_radius
+    - blindness
+    - exhausted
+    - antiheal
+  character: dredge
+
+- slug: hangmans_trick
+  name: 'Scourge Hook: Hangman''s Trick'
+  type: killer
+  tags:
+    - scourge_hook
+    - hook
+    - loud_noise_notification
+    - carrying
+    - aura
+  character: pig
+
+- slug: overwhelming_presence
+  name: Overwhelming Presence
+  type: killer
+  tags:
+    - terror_radius
+    - item
+  character: doctor
+
+- slug: territorial_imperative
+  name: Territorial Imperative
+  type: killer
+  tags:
+    - aura
+    - basement
+  character: huntress
+
 - slug: unrelenting
   name: Unrelenting
   type: killer
   tags: [ ]
-- slug: weave_attunement
-  name: Weave Attunement
+
+- slug: bloodhound
+  name: Bloodhound
   type: killer
   tags:
-    - item
-    - aura
-    - oblivious
-  character: lich
+    - pools_of_blood
+  character: wraith
 
-- slug: whispers
-  name: Whispers
-  type: killer
-  tags: [ ]
-- slug: zanshin_tactics
-  name: Zanshin Tactics
+- slug: beast_of_pray
+  name: Beast of Prey
   type: killer
   tags:
-    - pallet
-    - aura
-  character: oni
+    - bloodlust
+    - undetectable
+    - bloodpoints
+  character: huntress
 
+- slug: shattered_hope
+  name: Shattered Hope
+  type: killer
+  tags:
+    - totem
+    - aura
+
+- slug: distressing
+  name: Distressing
+  type: killer
+  tags:
+    - terror_radius
+    - bloodpoints

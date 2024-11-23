@@ -17,7 +17,7 @@
       </div>
     </td>
     <td class="perk-name">
-      <a :href="`/perks/${props.perk.slug}`">{{ t(`perks.${props.perk.slug}`) }}</a>
+      <a :href="`/perk/${props.perk.slug}`">{{ t(`perks.${props.perk.slug}`) }}</a>
     </td>
     <td class="perk-tags">
       <img v-for="tag in sortedTags"

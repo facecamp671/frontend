@@ -1,21 +1,21 @@
 <template>
   <input v-model="query"
-         placeholder="Search by tags"
+         :placeholder="searchByTags"
          type="text"/>
   <table>
     <thead>
     <tr>
       <td>
-        Rank
+        {{ t('rank') }}
       </td>
       <td>
-        Icon
+        {{ t('icon') }}
       </td>
       <td>
-        Title
+        {{ t('title') }}
       </td>
       <td>
-        Tags
+        {{ t('tags') }}
       </td>
     </tr>
     </thead>
@@ -34,6 +34,8 @@
 <script lang="ts" setup>
 import type {Perk} from "~/utils/types";
 
+const {t} = useI18n()
+
 interface Props {
   perks: Perk[];
   hideTags?: string[]
@@ -48,7 +50,10 @@ const queryTags = computed<string[]>(() => query.value
     .map((s) => s.trim())
     .filter((s) => s))
 
-const filteredPerks = computed(() => props.perks.filter((p) => queryTags.value.every((tag) => p.tags.includes(tag))))
+const searchByTags = computed(() => t('search_by_tags'))
+const filteredPerks = computed(() => props.perks
+    .filter((p) => queryTags.value.every((tag) => p.tags.includes(tag)))
+    .sort((a, b) => (b.my_rating ?? 0) - (a.my_rating ?? 0)))
 const hideTags = computed(() => (props.hideTags ?? []).concat(queryTags.value))
 
 function onAddTag(tag: string) {

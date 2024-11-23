@@ -17,11 +17,11 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en',
-        files: ['en.yaml', 'en_perks.yaml']
+        file: 'en.yaml'
       },
       {
         code: 'ru',
-        files: ['ru.yaml', 'ru_perks.yaml']
+        file: 'ru.yaml'
       }
     ],
     defaultLocale: 'en',

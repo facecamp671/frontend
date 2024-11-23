@@ -5,6 +5,8 @@
 
   <PerkTable :perks="allPerks"/>
 
+  <hr/>
+
   <CommentsSection/>
 </template>
 
@@ -12,12 +14,15 @@
 import {parse} from 'yaml'
 import PerksYAML from '~/assets/perks.yaml?raw'
 
+const {t} = useI18n()
+
 const allPerks = parse(PerksYAML ?? '[]') as Perk[]
 
-const seoTitle = 'FaceCamp671 - All perks'
+const pageTitle = t('all_perks')
+const seoTitle = `FaceCamp671 - ${pageTitle}`
 
 definePageMeta({
-  title: 'All perks'
+  title: 'all_perks'
 })
 
 useSeoMeta({

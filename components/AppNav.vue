@@ -20,6 +20,10 @@ interface Link {
 }
 
 const links = computed<Link[]>(() => [
+  // {
+  //   label: t("wiki"),
+  //   href: "/wiki"
+  // },
   {
     label: t("faq"),
     href: "/faq"
